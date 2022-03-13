@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1004
+  number: 1005
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
@@ -37,7 +37,7 @@ test:
 
 about:
   home: http://github.com/bhmm/bhmm
-  license: LGPLv3+
+  license: LGPL-3.0-or-later
   #license_file: LICENSE # TODO: add this to MANIFEST.in on next release.
   summary: 'Sampling from the Bayesian posterior of hidden Markov models.'
   description: |
